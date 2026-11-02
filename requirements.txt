@@ -1,0 +1,6 @@
+# Bot core (Stex SMS + SMS Pro + API panels all use requests)
+requests>=2.32.3,<3
+
+# Everything else (sqlite, http server, hmac, etc.) uses only the Python standard library.
+# No Firebase and no Mini App packages needed.
+# Python 3.10+ recommended (PYTHON_VERSION=3.11.x on Render).
